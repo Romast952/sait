@@ -1,0 +1,65 @@
+.logo {
+    height: 100px
+}
+
+header {
+    display: flex;
+}
+
+.chelovek {
+    margin-left: 1650px;
+    height: 50px;
+}
+
+.setting {
+    height: 50px
+}
+
+main {
+    background-color: rgb(39, 61, 75);
+    height: 700px;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+.post {
+    background-color: blanchedalmond;
+    height: 250px;
+    display: flex;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.post_img {
+    margin-right: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.shrift {
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(148, 148, 148);
+    padding: 10px;
+    border-radius: 4px;
+    color:rgb(230, 224, 224);
+}
+
+.button:hover {
+    background-color: rgb(168, 167, 167);
+    
+}
+
+.button:active {
+    background-color: whitesmoke;
+    border-color: darkgray;
+    color: darkgrey;
+    border: 2px rgb(148, 148, 148) solid;
+}
